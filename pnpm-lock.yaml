@@ -6,10 +6,13 @@ settings:
 
 dependencies:
   '@linnworks/application':
-    specifier: 0.0.1-test.1
-    version: 0.0.1-test.1(@linnworks/entities@1.0.14-sdk.1)
+    specifier: 0.0.1-test.5
+    version: 0.0.1-test.5(@linnworks/entities@1.0.15)
 
 devDependencies:
+  '@linnworks/entities':
+    specifier: ^1.0.15
+    version: 1.0.15
   css-loader:
     specifier: ^6.8.1
     version: 6.8.1(webpack@5.89.0)
@@ -95,17 +98,16 @@ packages:
     resolution: {integrity: sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==}
     dev: true
 
-  /@linnworks/application@0.0.1-test.1(@linnworks/entities@1.0.14-sdk.1):
-    resolution: {integrity: sha512-BRWB3aO0hWnPbwS/802nXOtTa4UbzHSb8FI1iF8YEfsZdRr/jS/398uwHrPDvPMqa4goXH5qVOU7MTnIDaRoug==}
+  /@linnworks/application@0.0.1-test.5(@linnworks/entities@1.0.15):
+    resolution: {integrity: sha512-6HebaSDNxxDpAVW3FDXnilPHYqxGa7mlDVcDcg9UA933HwCgZUExQZ7tnC0cS1DuAp7tp98iEeM2tXLwRXZ+0A==}
     peerDependencies:
-      '@linnworks/entities': ^1.0.14-sdk.1
+      '@linnworks/entities': ^1.0.15
     dependencies:
-      '@linnworks/entities': 1.0.14-sdk.1
+      '@linnworks/entities': 1.0.15
     dev: false
 
-  /@linnworks/entities@1.0.14-sdk.1:
-    resolution: {integrity: sha512-pRmh2v4jGkTXNAO08oossszsoNYiA6KRPxHu4sdowUKpskGTIqcIlLE1uf5y1jIeCqlat6ZETBxthUG0qDI5oA==}
-    dev: false
+  /@linnworks/entities@1.0.15:
+    resolution: {integrity: sha512-C3r+zcb2Katk9ztrOb/uystoqcz/kwjtNNXcY14WWhAltPFyfqeqqDPZ7wZZi631Hr754x1QlRTkWekTXqqPIA==}
 
   /@types/body-parser@1.19.5:
     resolution: {integrity: sha512-fB3Zu92ucau0iQ0JMCFQE7b/dv8Ot07NI3KaZIkIUNXq82k4eBAqUaneXfleGY9JWskeS9y+u0nXMyspcuQrCg==}
