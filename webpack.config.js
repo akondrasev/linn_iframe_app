@@ -12,12 +12,18 @@ const stylesHandler = MiniCssExtractPlugin.loader;
 
 const config = {
     entry: './src/index.ts',
+    devtool: false,
     output: {
         path: path.resolve(__dirname, 'dist'),
     },
     devServer: {
-        open: true,
         host: 'localhost',
+        liveReload: false,
+        hot: false,
+        client: false
+    },
+    optimization: {
+      runtimeChunk: "single"
     },
     plugins: [
         new HtmlWebpackPlugin({

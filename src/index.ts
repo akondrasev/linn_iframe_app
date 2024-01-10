@@ -3,6 +3,7 @@ import { LinnworksApplication } from "@linnworks/application";
 LinnworksApplication.init()
     .then(response => {
         console.log(response.session);
+        console.log(response.initialData);
 
         let div = document.createElement("div");
 
